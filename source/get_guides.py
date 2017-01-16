@@ -10,9 +10,9 @@ class Guides:
         self.SD_creds = 'reaperz:grim945'
         self.set_dir = 'cd ~/github/epg-updater/'
         self.guide_cmds = [
-            './mc2xml -J 'reaperz:grim945' -U -u -a -c us -g 10001 -d 48 -C usa.chl -R usa.ren -o usa.xml -D usa.dat',
-            './mc2xml -J 'reaperz:grim945' -U -u -a -c gb -g WC2N -d 48 -C uk.chl -R uk.ren -o uk.xml -D uk.dat',
-            './mc2xml -J 'reaperz:grim945' -U -u -a -c ca -g "V5K 0A1" -d 48 -C can.chl -R can.ren -o can.xml -D can.dat']
+            './mc2xml -J '' -U -u -a -c us -g 10001 -d 48 -C usa.chl -R usa.ren -o usa.xml -D usa.dat',
+            './mc2xml -J '' -U -u -a -c gb -g WC2N -d 48 -C uk.chl -R uk.ren -o uk.xml -D uk.dat',
+            './mc2xml -J '' -U -u -a -c ca -g "V5K 0A1" -d 48 -C can.chl -R can.ren -o can.xml -D can.dat']
 
     def cleanup(self):
         print('deleting xml files...')
